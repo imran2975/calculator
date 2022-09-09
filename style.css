@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: #efeff2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    width: 300px;
+    height: 510px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    background: #22252d;
+    padding: 0 10px 10px 10px;
+}
+
+form input{
+    width: 100%;
+    height: 150px;
+    border: none;
+    background: #000;
+    border-radius: 10px;
+    text-align: right;
+    color: #fff;
+    font-size: 2em;
+    padding: 0.5em;
+    pointer-events: none;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+button{
+    flex: 0 0 22%;
+    margin: 5px 0;
+    border: 1px solid #000;
+    width: 60px;
+    height: 52px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn-blue{
+    background: rgb(62, 202, 245);
+    color: #000;
+}
+
+.btn-gray{
+    background: rgb(170, 170, 170);
+}
+
+.equal{
+    background: rgb(4, 206, 4);
+    padding: 0 6.3em;
+}
+
+.clear{
+    background: red;
+}
+.design{
+    padding: 5px;
+}
+
+p{
+    height: 20px;
+    width: 20px;
+    background: #000;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.red{
+    background: rgba(255, 0, 0, 0.644);
+}
+
+.yellow{
+    background: rgba(255, 255, 0, 0.651);
+}
+
+.green{
+    background: rgba(0, 128, 0, 0.63);
+}
+
+span{
+    float: right;
+    color: #fff;
+    text-align: center;
+    font-family: 'Outfit', cursive;
+}
